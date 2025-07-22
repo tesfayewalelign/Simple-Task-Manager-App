@@ -13,10 +13,7 @@ export default function Button({
 }: ButtonProps) {
   if (variant === "link") {
     return (
-      <button
-        className={` underline ${className}`}
-        {...props}
-      >
+      <button className={` underline ${className}`} {...props}>
         {children}
       </button>
     );
